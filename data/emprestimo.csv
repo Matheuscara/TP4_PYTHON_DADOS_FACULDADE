@@ -1,0 +1,4 @@
+id_usuario,id_livro,data_emprestimo,data_devolucao
+1,1,2024-03-01,
+1,2,2024-03-05,2024-03-10
+2,1,2024-03-02,2024-03-07

@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  biblioteca:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    container_name: biblioteca_db
+    command: ["python", "src/main.py"]
